@@ -1,8 +1,6 @@
-let myInput;
-let myInputBox;
-let myDatabase = ['John','Luke','Joshua','Jude','Katelyn','Lynsay','Gemma','Gabriella','Lyle','Siviwe'];
+let database = ['john','Maggie','Andrew','Sifiso','Nwabisa','Bennie','Rafiek','Suzan','Henry','Jack'];
 
-function choice() {
-    myInput = document.getElementById("theInput");
-    myInputBox = myInputBox.value;
-}
+let selection = prompt('Please choose a number');
+console.log(selection);
+
+
